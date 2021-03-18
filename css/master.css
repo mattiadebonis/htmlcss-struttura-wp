@@ -1,31 +1,66 @@
+/*impostazioni generali */
 *{
     padding:0;
     margin:0;
-    box-sizing: border;
+    box-sizing: border-box;
 }
 
 body > *{
     margin: 10px 20% 10px 20%;
 }
+
+/*intestazione pagina */
 header{
-    background-color: pink;
-    height: 200px;
-
-}
-
-.notizie-principali{
-    background-color: yellow;
-    height: 400px;
-}
-
-
-main{
-    background-color: powderblue;
-    height: 600px;
-
-}
-
-footer{
-    background-color:purple;
+    background-color:rgb(229, 121, 230);
     height: 100px;
 }
+
+/*contenitore*/
+.contentitore{
+    background-color:rgb(225, 214,123);
+    height: 200px;
+}
+
+
+/*sezione principale*/
+main{
+    background-color:rgb(1, 134,255);
+}
+
+main > *{
+    background-color: powderblue;
+    margin-bottom: 1%;
+}
+
+main::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.intestazione-main{
+    width: 100%;
+    height: 50px;
+}
+
+aside{
+    float: left;
+    width: 25%;
+    height: 300px;
+}
+
+.sezione-principale-main{
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 48%;
+    height: 300px;
+}
+
+
+/*footer*/
+footer{
+    background-color: rgb(136,1,254);
+    height: 50px;
+}
+
