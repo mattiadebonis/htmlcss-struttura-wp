@@ -3,3 +3,29 @@
     margin:0;
     box-sizing: border;
 }
+
+body > *{
+    margin: 10px 20% 10px 20%;
+}
+header{
+    background-color: pink;
+    height: 200px;
+
+}
+
+.notizie-principali{
+    background-color: yellow;
+    height: 400px;
+}
+
+
+main{
+    background-color: powderblue;
+    height: 600px;
+
+}
+
+footer{
+    background-color:purple;
+    height: 100px;
+}
