@@ -4,15 +4,34 @@
     margin:0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 body > *{
-    margin: 10px 20% 10px 20%;
+    margin: 10px 10% 10px 10%;
 }
 
 /*intestazione pagina */
-header{
-    background-color:rgb(229, 121, 230);
-    height: 100px;
+
+#logo{
+    height: 70px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 3% 3% 3% 0;
+
+}
+
+.list-inline > li a:hover{
+    color: gray;
+
+}
+
+a{
+    text-decoration: none;
 }
 
 /*contenitore*/
@@ -52,7 +71,6 @@ main > *{
 .impaginazione-main{
     height: 300px;
     float: left;
-
 }
 
 .centrale{
